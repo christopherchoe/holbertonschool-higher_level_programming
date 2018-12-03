@@ -23,10 +23,8 @@ int check_cycle(listint_t *head)
 	{
 		flag++;
 		fast = fast->next;
-		if (flag == 0)
+		if (flag % 2 == 0)
 			slow = slow->next;
-		else
-			flag--;
 		if (fast == slow)
 			return (1);
 	}
