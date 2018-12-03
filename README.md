@@ -1,5 +1,4 @@
-#
-holbertonschool-higher_level_programming
+# holbertonschool-higher_level_programming
 ---
 ## Holberton Curriculum and Projects on Programming in Higher Level Languages
 
