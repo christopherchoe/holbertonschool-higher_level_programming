@@ -10,3 +10,7 @@
 * [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
 * [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
+### 0x01. Python - if/else, loops, functions
+* [More Control Flow Tools](https://docs.python.org/3.4/tutorial/controlflow.html)
+* [Learn to Program 2: Looping](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+
