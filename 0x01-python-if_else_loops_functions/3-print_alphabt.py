@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for letter in 'abcdefghijklmnopqrstuvwxyz':
-    if letter == 'q' or letter == 'e':
+for letter in range(97, 123):
+    if chr(letter) == 'q' or chr(letter) == 'e':
         continue
-    print(letter, end='')
+    print(chr(letter), end='')
