@@ -12,35 +12,35 @@
   */
 listint_t *insert_node(listint_t **head, int number)
 {
-	listint_t *prev, *next, *new_node;
+	listint_t *prev, *next_node, *new_node;
 
-	if (!head || !*head)
+	if (!head)
 		return (NULL);
 
-	prev = *head;
-	next = *head;
-	next = next->next;
-
-	while (next && next->next)
-	{
-		if (number < prev->n)
-			return (NULL);
-		if (number == prev->n)
-		{
-			new_node = create_node(number);
-			if (!new_node)
-				return (NULL);
-			prev->next = new_node;
-			new_node->next = next;
-			return (new_node);
-		}
-		prev = prev->next;
-		next = next->next;
-	}
 	new_node = create_node(number);
 	if (!new_node)
 		return (NULL);
 
+	if (!*head)
+	{
+		*head = new_node;
+		return (new_node);
+	}
+	prev = *head;
+	next_node = (*head)->next;
+
+	while (next_node)
+	{
+		if (number <= prev->n)
+		{
+			prev->next = new_node;
+			new_node->next = next_node;
+			return (new_node);
+		}
+		prev = prev->next;
+		next_node = next_node->next;
+	}
+	prev->next = new_node;
 	return (new_node);
 }
 
@@ -59,6 +59,7 @@ listint_t *create_node(int number)
 		return (NULL);
 
 	new_node->n = number;
+	new_node->next = NULL;
 
 	return (new_node);
 }
