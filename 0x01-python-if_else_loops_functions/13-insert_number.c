@@ -16,7 +16,6 @@ listint_t *insert_node(listint_t **head, int number)
 	pleasegod = malloc(sizeof(listint_t *));
 	if (!pleasegod || !head)
 		return (NULL);
-	pleasegod->next = NULL;
 	pleasegod->n = number;
 	tmp = *head;
 	if (!tmp || tmp->n >= number)
@@ -31,9 +30,9 @@ listint_t *insert_node(listint_t **head, int number)
 		{
 			pleasegod->next = tmp->next;
 			tmp->next = pleasegod;
-			return (pleasegod);
+			break;
 		}
 		tmp = tmp->next;
 	}
-	return (NULL);
+	return (pleasegod);
 }
