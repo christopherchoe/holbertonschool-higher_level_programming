@@ -10,39 +10,45 @@
   * @number: number to add in linked list
   * Return: Address of new node or NULL if failure
   */
+
 listint_t *insert_node(listint_t **head, int number)
 {
-	listint_t *tmp, *pleasegod;
+	listint_t *new_node;
+	listint_t *current;
 
-	pleasegod = malloc(sizeof(listint_t *));
-	if (!pleasegod || !head)
+	if (!head)
 		return (NULL);
-	pleasegod->n = number;
-	tmp = *head;
-	if (tmp)
+
+	new_node = malloc(sizeof(listint_t));
+	if (!new_node)
+		return (NULL);
+	new_node->n = number;
+
+	current = *head;
+	if (current)
 	{
-		if (tmp->n >= number)
+		if (current->n > number)
 		{
-			pleasegod->next = tmp;
-			*head = pleasegod;
+			new_node->next = current;
+			*head = new_node;
 		}
 		else
 		{
-			while (tmp->next)
+			while (current && current->next)
 			{
-				if (tmp->next->n < number)
-					tmp = tmp->next;
+				if (current->next->n < number)
+					current = current->next;
 				else
 					break;
 			}
-			pleasegod->next = tmp->next;
-			tmp->next = pleasegod;
+			new_node->next = current->next;
+			current->next = new_node;
 		}
 	}
 	else
 	{
-		*head = pleasegod;
-		pleasegod->next = NULL;
+		*head = new_node;
+		new_node->next = NULL;
 	}
-	return (pleasegod);
+	return (new_node);
 }
