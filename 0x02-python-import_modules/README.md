@@ -16,15 +16,15 @@ This project in the Higher Level Language Programming series is about:
 ---
 File | Task
 ---|---
-0-add.py | 
-1-calculation.py | 
-100-my_calculator.py | 
-101-easy_print.py | 
-102-magic_calculation.py | 
-103-fast_alphabet.py | 
-2-args.py | 
-3-infinite_add.py | 
-4-hidden_discovery.py | 
-5-variable_load.py | 
+0-add.py | adds two values using imported function
+1-calculation.py | calculates values using imported functions
+100-my_calculator.py | calculates argument calculations using imported functions
+101-easy_print.py | prints without common printing functions in one line
+102-magic_calculation.py | function to match specific bytecode
+103-fast_alphabet.py | prints the uppercase alphabet using an import and no loops or conditions
+2-args.py | prints argument count and arguments in format
+3-infinite_add.py | adds given arguments
+4-hidden_discovery.py | prints functions in compiled file that dont start with _
+5-variable_load.py | imports a varaiable and prints it
 
 
