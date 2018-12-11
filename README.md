@@ -18,3 +18,8 @@
 * [Modules](https://docs.python.org/3.4/tutorial/modules.html)
 * [Command Line Arguments](https://docs.python.org/3.4/tutorial/stdlib.html#command-line-arguments)
 
+### 0x03. Python - Data Strucutres: Lists, Tuples
+* [3.1.3 Lists](https://docs.python.org/3.4/tutorial/introduction.html#lists)
+* [Data Structures](https://docs.python.org/3.4/tutorial/datastructures.html)
+* [Learn to Program 6: Lists](https://www.youtube.com/watch?v=A1HUzrvS-Pw)
+
