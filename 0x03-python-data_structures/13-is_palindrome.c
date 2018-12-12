@@ -26,7 +26,7 @@ int is_palindrome(listint_t **head)
 
 	end = *head;
 
-	for (i = 0; i <= len / 2; i++)
+	for (i = 0; i < len / 2; i++)
 	{
 		if (end->next)
 			end = end->next;
@@ -53,8 +53,8 @@ listint_t *check_pali(listint_t *h, listint_t *e)
 			return (h->next);
 		return (NULL);
 	}
-	e = check_pali(h, e->next);
-	if (e && h->n == e->n)
+	h = check_pali(h, e->next);
+	if (h && h->n == e->n)
 		return (h->next);
 	return (NULL);
 }
