@@ -11,7 +11,10 @@ int is_palindrome(listint_t **head)
 	unsigned int len = 1, i;
 	listint_t *end;
 
-	if (!head || !*head || (*head)->next == NULL)
+	if (!head)
+		return (0);
+
+	if (!*head || (*head)->next == NULL)
 		return (1);
 
 	end = *head;
