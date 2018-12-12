@@ -20,19 +20,19 @@ This project in the Higher Level Language Programming series is about:
 ---
 File | Task
 ---|---
-0-print_list_integer.py | 
-1-element_at.py | 
-10-divisible_by_2.py | 
-11-delete_at.py | 
-12-switch.py | 
+0-print_list_integer.py | prints integers in a list
+1-element_at.py | returns element at an index
+10-divisible_by_2.py | returns a list of true false based on divisibility by 2
+11-delete_at.py | deletes at index
+12-switch.py | switchs two variables in one line
 13-is_palindrome.c | Determines whether a linked list is a palindrome or not based on its values
-2-replace_in_list.py | 
-3-print_reversed_list_integer.py | 
-4-new_in_list.py | 
-5-no_c.py | 
-6-print_matrix_integer.py | 
-7-add_tuple.py | 
-8-multiple_returns.py | 
-9-max_integer.py | 
+2-replace_in_list.py | replaces an element in a list
+3-print_reversed_list_integer.py | prints a reversed list of integers
+4-new_in_list.py | returns a copy with a replaced element
+5-no_c.py | Removes c's from a string
+6-print_matrix_integer.py | prints the elements of a matrix in a particular format
+7-add_tuple.py | adds two elements of a tuple if they exist
+8-multiple_returns.py | returns a sentence length and the first character
+9-max_integer.py | finds the max integer of a list without max()
 lists.h | header file for c palindromes function
 
