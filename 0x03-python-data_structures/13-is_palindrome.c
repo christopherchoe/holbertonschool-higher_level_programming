@@ -53,7 +53,7 @@ listint_t *check_pali(listint_t *h, listint_t *e)
 			return (h->next);
 		return (NULL);
 	}
-	h = check_pali(h, e->next);
+	e = check_pali(h, e->next);
 	if (h && h->n == e->n)
 		return (h->next);
 	return (NULL);
