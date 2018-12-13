@@ -23,3 +23,8 @@
 * [Data Structures](https://docs.python.org/3.4/tutorial/datastructures.html)
 * [Learn to Program 6: Lists](https://www.youtube.com/watch?v=A1HUzrvS-Pw)
 
+### 0x04. Python - More Data Structures: Set, Dictionary
+* [Data Structures](https://docs.python.org/3.4/tutorial/datastructures.html)
+* [Lambda, filter, reduce and map](https://www.python-course.eu/python3_lambda.php)
+* [Learn to Program 12 Lambda Map Filter Reduce](https://www.youtube.com/watch?v=1GAC6KQUPeg)
+
