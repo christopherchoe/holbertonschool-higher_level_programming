@@ -11,4 +11,17 @@ def roman_to_int(roman_string):
         'V': 5,
         'I': 1
     }
-    return sum(list(rn_dict[x] for x in roman_string))
+    s_dict = {
+        "IV": -2,
+        "IX": -2,
+        "XL": -20,
+        "XC": -20,
+        "CD": -200,
+        "CM": -200
+    }
+    # if (value < valueofnextletter then value is negative
+    value = sum(list(rn_dict[x] for x in roman_string))
+    for (k, v) in s_dict.items():
+        if k in roman_string:
+            value += s_dict[k]
+    return value
