@@ -4,6 +4,10 @@ class Square:
         self.size = size
         self.position = position
 
+    @property
+    def position(self):
+        return self.__position
+
     @position.setter
     def position(self, value):
         if isinstance(value, tuple) and len(value) == 2\
