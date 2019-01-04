@@ -32,4 +32,5 @@
 * [Errors and Exceptions](https://docs.python.org/3.4/tutorial/errors.html)
 * [Learn to program: Exception Handling](https://www.youtube.com/watch?reload=9&v=7vbgD-3s-w4)
 
-
+### 0x06. Python - Classes
+* [fix](google.com)
