@@ -3,6 +3,8 @@
 This module provides an integer add function to be tested using
 docstring testing.
 """
+
+
 def add_integer(a, b=98):
     """
     Function to add two integers, error if non integers or floats

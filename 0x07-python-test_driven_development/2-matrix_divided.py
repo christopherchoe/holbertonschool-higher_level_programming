@@ -3,6 +3,8 @@
 This module divides elements of a matrix and will be used to test a
 doctest on the function matrix_divided
 """
+
+
 def matrix_divided(matrix, div):
     """
     This function divides elements of a matrix by a div number,
@@ -28,17 +30,21 @@ def matrix_divided(matrix, div):
             temp_matrix = []
 
             if type(i) != list or len(i) == 0:
-                raise TypeError('matrix must be a matrix (list of lists) of integers/floats')
+                raise TypeError('matrix must be a matrix (list of\
+                lists) of integers/floats')
 
             for k in i:
                 if (type(k) != int and type(k) != float):
-                    raise TypeError('matrix must be a matrix (list of lists) of integers/floats')
+                    raise TypeError('matrix must be a matrix (list\
+                    of lists) of integers/floats')
                 temp_matrix.append(round(k / div, 2))
             if num_k == -1:
                 num_k = len(temp_matrix)
             if num_k != len(temp_matrix):
-                raise TypeError('Each row of the matrix must have the same size')
+                raise TypeError('Each row of the matrix must have\
+                the same size')
             new_matrix.append(temp_matrix)
         return new_matrix
     if len(new_matrix) == 0:
-        raise TypeError('matrix must be a matrix (list of lists) of integers/floats')
+        raise TypeError('matrix must be a matrix (list of lists)\
+        of integers/floats')
