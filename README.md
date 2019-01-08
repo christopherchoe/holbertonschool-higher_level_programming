@@ -33,4 +33,6 @@
 * [Learn to program: Exception Handling](https://www.youtube.com/watch?reload=9&v=7vbgD-3s-w4)
 
 ### 0x06. Python - Classes
-* [fix](google.com)
+* [Object Oriented Programming](https://python.swaroopch.com/oop.html)
+* [Properties vs Getters & Setters](https://www.python-course.eu/python3_properties.php)
+* [Learn to Program: OOP](https://www.youtube.com/watch?v=1AGyBuVCTeE&)
