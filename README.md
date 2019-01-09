@@ -36,3 +36,12 @@
 * [Object Oriented Programming](https://python.swaroopch.com/oop.html)
 * [Properties vs Getters & Setters](https://www.python-course.eu/python3_properties.php)
 * [Learn to Program: OOP](https://www.youtube.com/watch?v=1AGyBuVCTeE&)
+
+### 0x07. Python - Test Driven Development
+* [doctest - Testing through documentation](https://pymotw.com/3/doctest/)
+* [doctest - Test interactive Python examples](https://docs.python.org/3.4/library/doctest.html)
+
+### 0x08. Python - More Classes and Objects
+* [classmethods and staticmethods](https://www.youtube.com/watch?v=rq8cL2XMM5M)
+* [str vs repr](http://brennerm.github.io/posts/python-str-vs-repr.html)
+
