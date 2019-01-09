@@ -65,3 +65,24 @@ class Rectangle:
         if self.height > 0 and self.width > 0:
             return 2 * self.height + 2 * self.width
         return 0
+
+    def __str__(self):
+        """
+        returns a string represntation of the rectangle built in
+        the chracter '#'
+        """
+        rect = ""
+        if self.height == 0 or self.width == 0:
+            return rect
+        for i in range(1, self.height):
+            rect += "#" * self.width + '\n'
+        rect += '#' * self.width
+        return rect
+
+    def __repr__(self):
+        """
+        returns a string representation of the rectangle able to be
+        built with eval
+        """
+        return "Rectangle(" + str(self.width) + ", "\
+            + str(self.height) + ")"
