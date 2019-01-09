@@ -18,7 +18,7 @@ def text_indentation(text):
         flag = False
 
         for i in text:
-            if flag == False:
+            if flag is False:
                 spaces = 0
                 if i == ' ' or i == '\t':
                     continue
