@@ -45,3 +45,8 @@
 * [classmethods and staticmethods](https://www.youtube.com/watch?v=rq8cL2XMM5M)
 * [str vs repr](http://brennerm.github.io/posts/python-str-vs-repr.html)
 
+### 0x09. Python - Everything is an Object
+* [Objects and values, Aliasing, Cloning Lists](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values)
+* [Immutable vs mutable types](https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types)
+* [Mutation](http://composingprograms.com/pages/24-mutable-data.html#sequence-objects)
+* [Python tuples: immutable but potentially chaning](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
