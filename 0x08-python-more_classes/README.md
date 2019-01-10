@@ -34,5 +34,13 @@ This project in the Higher Level Language Programming series is about:
 ---
 File | Task
 ---|---
-0-add_integer.py | adds two integers
-
+0-rectangle.py | empty rectangle class
+1-rectangle.py | adds width and height properties (get and sets)
+2-rectangle.py | adds an area and rectangle return
+3-rectangle.py | adds str function for printing a rectangle
+4-rectangle.py | adds repr function for creating an identical rectangle
+5-rectangle.py | adds print for deletion of instances
+6-rectangle.py | adds instances class attribute
+7-rectangle.py | adds print symbol class attribute
+8-rectangle.py | adds static compare method
+9-rectangle.py | adds square class method
