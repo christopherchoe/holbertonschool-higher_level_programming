@@ -50,3 +50,9 @@
 * [Immutable vs mutable types](https://stackoverflow.com/questions/8056130/immutable-vs-mutable-types)
 * [Mutation](http://composingprograms.com/pages/24-mutable-data.html#sequence-objects)
 * [Python tuples: immutable but potentially chaning](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
+
+### 0x0A. Python - Inheritance
+* [Inheritance and Multiple Inheritance](https://docs.python.org/3.4/tutorial/classes.html#inheritance)
+* [Inheritance in Python](https://hub.packtpub.com/inheritance-python/)
+* [Learn to Program: Inheritance](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
+
