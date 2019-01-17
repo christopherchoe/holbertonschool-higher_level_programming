@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+returns number of lines in file
+"""
+
+
 def number_of_lines(filename=""):
     """
     returns number of lines in a text file

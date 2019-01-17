@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+reads a certain amount of lines and prints
+"""
+
+
 def read_lines(filename="", nb_lines=0):
     """
     reads n lines of text file and prints to stdout
