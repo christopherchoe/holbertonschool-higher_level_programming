@@ -56,3 +56,8 @@
 * [Inheritance in Python](https://hub.packtpub.com/inheritance-python/)
 * [Learn to Program: Inheritance](https://www.youtube.com/watch?v=d8kCdLCi6Lk)
 
+### 0x0B. Python - Input/Output
+* [Reading and Writing Files](https://docs.python.org/3.3/tutorial/inputoutput.html)
+* [Predefined Clean-up Actions](https://docs.python.org/3.4/tutorial/errors.html#predefined-clean-up-actions)
+* [json encoder and decoder](https://docs.python.org/3.4/library/json.html)
+* [Learn to program: Read/Write](https://www.youtube.com/watch?v=EukxMIsNeqU)
