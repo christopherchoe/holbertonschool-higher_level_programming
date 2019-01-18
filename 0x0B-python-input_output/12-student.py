@@ -12,6 +12,9 @@ class Student():
         """
         initialization
         """
+        self.first_name = ""
+        self.last_name = ""
+        self.age = 0
         if isinstance(first_name, str):
             self.first_name = first_name
         if isinstance(last_name, str):
