@@ -61,3 +61,7 @@
 * [Predefined Clean-up Actions](https://docs.python.org/3.4/tutorial/errors.html#predefined-clean-up-actions)
 * [json encoder and decoder](https://docs.python.org/3.4/library/json.html)
 * [Learn to program: Read/Write](https://www.youtube.com/watch?v=EukxMIsNeqU)
+
+### 0x0C. Python - Almost a Circle
+* [args and kwargs](https://pythontips.com/2013/08/04/args-and-kwargs-in-python-explained/)
+* [Python test cheatsheet](https://www.pythonsheets.com/notes/python-tests.html)
