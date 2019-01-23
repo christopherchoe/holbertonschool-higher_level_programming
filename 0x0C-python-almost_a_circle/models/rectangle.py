@@ -99,3 +99,16 @@ class Rectangle(Base):
                 raise ValueError("y must be >= 0")
         else:
             raise TypeError("y must be an integer")
+
+    def area(self):
+        """
+        returns area of rectangle
+        """
+        return self.width * self.height
+
+    def display(self):
+        """
+        prints in stdout a Rectangle instance with character '#'
+        """
+        for i in range(self.height):
+            print('#' * self.width)
