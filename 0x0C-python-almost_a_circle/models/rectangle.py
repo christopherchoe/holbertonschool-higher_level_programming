@@ -33,7 +33,7 @@ class Rectangle(Base):
         width setter
         """
         if type(value) is int:
-            if value >= 0:
+            if value > 0:
                 self.__width = value
             else:
                 raise ValueError("width must be > 0")
@@ -53,7 +53,7 @@ class Rectangle(Base):
         height setter
         """
         if type(value) is int:
-            if value >= 0:
+            if value > 0:
                 self.__height = value
             else:
                 raise ValueError("height must be > 0")
@@ -110,5 +110,38 @@ class Rectangle(Base):
         """
         prints in stdout a Rectangle instance with character '#'
         """
+        print('\n' * self.y, end='')
         for i in range(self.height):
-            print('#' * self.width)
+            print(' ' * self.x + '#' * self.width)
+
+    def __str__(self):
+        """
+        str magic method returning the rectangle and attributes
+        """
+        ret_str = "[Rectangle] (" + str(self.id) + ") " + str(self.x)
+        ret_str += "/" + str(self.y) + " - " + str(self.width) + "/"
+        return ret_str + str(self.height)
+
+    def update(self, *args, **kwargs):
+        """
+        assigns an argument to each attribute
+        """
+        attributes = ["id", "width", "height", "x", "y"]
+        if args is not None and len(args) is not 0:
+            for i in range(len(args)):
+                setattr(self, attributes[i], args[i])
+        elif kwargs is not None:
+            for k, v in kwargs.items():
+                setattr(self, k, v)
+
+    def to_dictionary(self):
+        """
+        returns dictionary representation of rectangle
+        """
+        ret_dict = {}
+        for k, v in vars(self).items():
+            if k is not "id":
+                ret_dict[k[12:]] = v
+            else:
+                ret_dict[k] = v
+        return ret_dict
