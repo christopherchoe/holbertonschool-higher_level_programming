@@ -59,7 +59,7 @@ class Base:
         """
         returns instance with attributes already set
         """
-        new_instance = cls(0, 0)
+        new_instance = cls(1, 1)
         new_instance.update(**dictionary)
         return new_instance
 
