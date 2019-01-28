@@ -4,6 +4,7 @@ base module
 """
 import json
 
+
 class Base:
     """
     Class that makes the base for other classes.
