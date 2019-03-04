@@ -15,4 +15,24 @@ This project in the Higher Level Language Programming series is about:
 ---
 File | Task
 ---|---
-
+0-list_databases.sql | lists databases
+1-create_database_if_missing.sql |
+10-top_score.sql | lists rows in descending order of score
+100-move_to_utf8.sql | converts database, a table and a column to utf8
+101-avg_temperatures.sql | lists the cities by average tempereature
+102-top_city.sql | lists the top three cities in terms of avg_temp in july and august
+103-max_state.sql | lists the states with max_temp ordered by state
+11-best_score.sql | lists rows with scores >= 10
+12-no_cheating.sql | changes bob's score to 10
+13-change_class.sql | removes all rows wiht score <= 5
+14-average.sql | prints the average of the scores
+15-groups.sql | lists scores and number of occurences
+16-no_link.sql | lists names and scores of second_table
+2-remove_database.sql | removes a database
+3-list_tables.sql | list the tables in a database
+4-first_table.sql | create a table
+5-full_table.sql | create a table with columns
+6-list_values.sql | list the values in a table
+7-insert_value.sql | insert a row into a table
+8-count_89.sql | return count of rows with id = 89
+9-full_creation.sql | create tables with rows
