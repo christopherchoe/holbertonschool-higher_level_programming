@@ -22,10 +22,10 @@ if __name__ == "__main__":
     session = Session()
     found = session.query(State).\
         filter(State.name == func.binary(search)).\
-        order_by(State.id).first().id
+        order_by(State.id).first()
 
     if found:
-        print(found)
+        print(found.id)
     else:
         print("Not found")
     session.close()
