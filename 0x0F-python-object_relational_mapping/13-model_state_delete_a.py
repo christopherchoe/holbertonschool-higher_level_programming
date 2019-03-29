@@ -19,7 +19,9 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    names_a = State.__table__.delete().where(State.name.like(func.binary('%a%')))
+    names_a = State.__table__.\
+        delete().\
+        where(State.name.like(func.binary('%a%')))
     session.execute(names_a)
     session.commit()
 
