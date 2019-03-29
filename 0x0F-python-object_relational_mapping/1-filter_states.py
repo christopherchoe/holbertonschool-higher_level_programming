@@ -9,17 +9,14 @@ if __name__ == "__main__":
     import sqlalchemy
     from sys import argv
 
-    try:
-        db = MySQLdb.connect(
-            host="localhost", port=3306, user=argv[1], passwd=argv[2], db=argv[3])
+    db = MySQLdb.connect(
+        host="localhost", port=3306, user=argv[1], passwd=argv[2], db=argv[3])
 
-        cur = db.cursor()
+    cur = db.cursor()
 
-        cur.execute(
-            "SELECT * FROM states WHERE states.name LIKE 'N%' ORDER BY states.id")
-        rows = cur.fetchall()
-        for row in rows:
-            print(row)
-        db.close()
-    except:
-        pass
+    cur.execute(
+        "SELECT * FROM states WHERE BINARY states.name LIKE 'N%' ORDER BY states.id")
+    rows = cur.fetchall()
+    for row in rows:
+        print(row)
+    db.close()
