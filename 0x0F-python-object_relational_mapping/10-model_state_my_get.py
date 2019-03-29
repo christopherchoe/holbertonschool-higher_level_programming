@@ -20,8 +20,12 @@ if __name__ == "__main__":
 
     Session = sessionmaker(bind=engine)
     session = Session()
-    print(session.query(State).\
+    found = session.query(State).\
         filter(State.name == func.binary(search)).\
-        order_by(State.id).first().id)
+        order_by(State.id).first().id
 
+    if found:
+        print(found)
+    else:
+        print("Not found")
     session.close()
