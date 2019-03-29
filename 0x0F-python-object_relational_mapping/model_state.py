@@ -22,7 +22,6 @@ class State(Base):
     id = Column(Integer, primary_key=True, nullable=False)
     name = Column(String(128), nullable=False)
 
-    children = relationship("City")
 
     def __init__(self, name):
         """
