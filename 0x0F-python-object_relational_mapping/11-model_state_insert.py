@@ -20,8 +20,6 @@ if __name__ == "__main__":
 
     lou = State("Louisiana")
 
-    print(lou)
-
     session.add(lou)
     session.commit()
 
