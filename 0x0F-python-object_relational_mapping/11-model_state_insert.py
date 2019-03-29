@@ -23,4 +23,6 @@ if __name__ == "__main__":
     session.add(lou)
     session.commit()
 
+    print(lou.id)
+
     session.close()
