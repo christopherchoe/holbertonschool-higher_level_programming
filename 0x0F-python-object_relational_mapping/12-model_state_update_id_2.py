@@ -19,7 +19,8 @@ if __name__ == "__main__":
     session = Session()
 
     try:
-        session.query(State).filter(State.id==2).update({"name": "New Mexico"})
+        session.query(State).filter(
+            State.id == 2).update({"name": "New Mexico"})
     except:
         pass
 
