@@ -21,9 +21,8 @@ def find_peak(list_of_integers):
                     return list_of_integers[half]
                 else:
                     ret = find_peak(list_of_integers[half:])
-                    if ret is None:
-                        ret = find_peak(list_of_integers[:-half])
-                    return ret
-            return list_of_integers[half - 1]
+                    if ret is not None:
+                        return ret
+            return find_peak(list_of_integers[:half])
         else:
             return list_of_integers[0]
