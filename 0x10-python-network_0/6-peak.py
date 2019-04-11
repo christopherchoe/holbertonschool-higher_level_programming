@@ -20,7 +20,7 @@ def find_peak(list_of_integers):
                 if list_of_integers[half] > list_of_integers[half + 1]:
                     return list_of_integers[half]
                 else:
-                    ret = find_peak(list_of_integers[half + 1:])
+                    ret = find_peak(list_of_integers[half:])
                     if ret is None:
                         ret = find_peak(list_of_integers[:-half])
                     return ret
