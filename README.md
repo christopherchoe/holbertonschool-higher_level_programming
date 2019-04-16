@@ -85,3 +85,10 @@
 * [Unions and Minus](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/setops.php)
 * [Seven types of SQL Join](https://teamsql.io/blog/?p=923)
 
+### 0x0F. Python - Object-relational mapping
+* [Object-relation mappers](https://hibernate.org/orm/what-is-an-orm/)
+* [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)
+
+### 0x10. Python - Network 0
+
+### 0x11. Python - Network 1
