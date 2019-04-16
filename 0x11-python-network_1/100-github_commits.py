@@ -14,6 +14,6 @@ if __name__ == "__main__":
         di = r.json()
         for i in range(10):
             print('{}: {}'.format(
-                di[i]['sha'], di[i]['commit']['committer']['name']))
+                di[i]['sha'], di[i]['commit']['author']['name']))
     except:
         pass
