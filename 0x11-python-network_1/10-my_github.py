@@ -11,7 +11,7 @@ if __name__ == "__main__":
     r = requests.get(url, auth=(sys.argv[1], sys.argv[2]))
     try:
         di = r.json()
-        if 'id' in di.items():
+        if 'id' in di.keys():
             print(di['id'])
         else:
             print('None')
