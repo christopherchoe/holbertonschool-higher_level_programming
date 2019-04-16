@@ -12,7 +12,7 @@ if __name__ == "__main__":
         param['q'] = sys.argv[1]
     r = requests.post('http://0.0.0.0:5000/search_user', data=param)
     try:
-        if r.json:
+        if r.json():
             print('[{}] {}'.format(r.json()['id'], r.json()['name']))
         else:
             print('No result')
