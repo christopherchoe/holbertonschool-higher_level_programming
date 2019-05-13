@@ -97,3 +97,5 @@
 [Javascript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 [Javascript Tutorial](https://www.youtube.com/watch?v=vZBCTc9zHtI)
 [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
+
+### 0x13. Javascript - Objects Scope Closures
