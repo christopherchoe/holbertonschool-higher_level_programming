@@ -5,7 +5,7 @@ request(process.argv[2], function (error, response, body) {
   if (error) {
     throw (error);
   } else {
-    let taskList = JSON.parse(body);
+    let taskList = JSON.parse(response.body);
     for (let items in taskList) {
       if (!(tasks[taskList[items]['userId']])) {
         tasks[taskList[items]['userId']] = 0;
