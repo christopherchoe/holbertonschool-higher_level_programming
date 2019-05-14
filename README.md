@@ -99,3 +99,5 @@
 [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
 
 ### 0x13. Javascript - Objects Scope Closures
+
+### 0x14. Javascript - Web Scraping
