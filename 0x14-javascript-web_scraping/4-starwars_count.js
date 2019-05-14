@@ -6,10 +6,11 @@ request(process.argv[2], function (err, response, body) {
   }
   let results = JSON.parse(body)['results'];
   let apperances = 0;
-  let character = 'https://swapi.co/api/people/18/';
   for (let num in results) {
-    if (results[num]['characters'].includes(character)) {
-      apperances += 1;
+    for (let chars in results[num]['characters']) {
+      if (results[num]['characters'][chars].includes('18')) {
+        apperances += 1;
+      }
     }
   }
   console.log(apperances);
