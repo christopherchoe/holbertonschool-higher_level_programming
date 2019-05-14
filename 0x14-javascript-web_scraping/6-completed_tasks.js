@@ -7,7 +7,7 @@ request(process.argv[2], function (error, response, body) {
   } else {
     let taskList = JSON.parse(body);
     for (let items in taskList) {
-      if (tasks[taskList[items]['userId']] === undefined) {
+      if (!(tasks[taskList[items]['userId']])) {
         tasks[taskList[items]['userId']] = 0;
       }
       if (taskList[items]['completed'] === true) {
